@@ -5,3 +5,6 @@
 	(package-refresh-contents)
 	(package-install pkgname)))
 
+(defun testfunc (arg)
+  "Test Functions"
+  (message "Hello World"))
