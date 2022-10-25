@@ -3,5 +3,6 @@
 !lisp/
 !lisp/**
 !init.el
+!utils.el
 *.~undo-tree~
 **/*.~undo-tree~
