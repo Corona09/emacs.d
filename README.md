@@ -1,7 +1,7 @@
 # Corona's Emacs
 
 Todo:
-- [ ] ivy
+- [x] ivy
+- [ ] lsp
 - [ ] 补全 company
 - [ ] yasnippet
-- [ ] lsp
