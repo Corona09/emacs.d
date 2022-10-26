@@ -12,6 +12,7 @@
 
 ;; 不产生*~文件
 (setq make-backup-files nil)
+(setq create-lockfiles nil)
 
 ;; 移除菜单栏
 (menu-bar-mode -1)
