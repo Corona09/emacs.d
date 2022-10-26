@@ -24,11 +24,11 @@
 (scroll-bar-mode -1)
 
 ;; 避免系统乱码
-(prefer-coding-system 'utf-8)
-(set-default-coding-systems 'utf-8)
-(set-terminal-coding-system 'utf-8)
-(set-keyboard-coding-system 'utf-8)
-(setq default-buffer-coding-system 'utf-8)
+;(prefer-coding-system 'utf-8)
+;(set-default-coding-systems 'utf-8)
+;(set-terminal-coding-system 'utf-8)
+;(set-keyboard-coding-system 'utf-8)
+;(setq default-buffer-coding-system 'utf-8)
 
 ;; 设置slime
 (setq inferior-lisp-program "/usr/bin/sbcl")
