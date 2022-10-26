@@ -1,5 +1,5 @@
 ;; 设置字体
-(set-frame-font "FiraCode Nerd Font 13")
+(set-frame-font "FiraCode Nerd Font 11")
 
 ;; 设置主题
 (pkginstall 'dracula-theme)
@@ -18,8 +18,8 @@
 (setq inhibit-startup-message t)
 (setq initial-scratch-message "")
 
-(setq default-frame-alist '((width . 60)
-                              (height . 20)
+(setq default-frame-alist '((width . 80)
+                              (height . 30)
                               (alpha-background . 90)))
 
 ;; 对外提供接口
