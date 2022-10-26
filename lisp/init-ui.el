@@ -1,9 +1,10 @@
 ;; 设置字体
-(set-frame-font "FiraCode Nerd Font 11")
+(set-frame-font "Mononoki Nerd Font 13")
 
 ;; 设置主题
 (pkginstall 'dracula-theme)
 (load-theme 'dracula)
+(global-hl-line-mode 1)
 
 ;; 一个好看的mode-line
 ;; 必须放在主题配置之后
@@ -18,9 +19,8 @@
 (setq inhibit-startup-message t)
 (setq initial-scratch-message "")
 
-(setq default-frame-alist '((width . 80)
-                              (height . 30)
-                              (alpha-background . 90)))
+;; 透明背景
+(setq default-frame-alist '((alpha-background . 90)))
 
 ;; 对外提供接口
 (provide 'init-ui)
