@@ -1,6 +1,5 @@
 # Corona's Emacs
 
 Todo:
-- [ ] lsp
-- [ ] yasnippet
+- [ ] company 与 lsp, yasnippet 的结合
 - [ ] buffer operation
