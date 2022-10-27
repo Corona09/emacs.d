@@ -28,6 +28,8 @@
 ;; 自动加载文件
 (global-auto-revert-mode t)
 
+;; 用 y/n 代替 yas/no
+(defalias 'yes-or-no-p 'y-or-n-p)
 ;; 避免系统乱码
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
