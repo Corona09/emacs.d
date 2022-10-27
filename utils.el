@@ -1,6 +1,6 @@
 ;; 安装插件包
 (defun pkginstall (pkgname)
-  "Package Install"
+  "Install Package"
   (unless (package-installed-p pkgname)
 	(package-refresh-contents)
 	(package-install pkgname)))

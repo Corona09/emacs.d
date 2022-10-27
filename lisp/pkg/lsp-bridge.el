@@ -32,6 +32,11 @@
 (require 'lsp-bridge)
 (if (display-grayscale-p)
 	(global-lsp-bridge-mode))
-(setq acm-enable-icon 1
+(setq acm-enable-icon t
 	  acm-enable-tabnine nil
-	  lsp-bridge-enable-log t)
+	  lsp-bridge-signature-show-function 'lsp-bridge-signature-posframe)
+;; 快捷键
+(global-set-key (kbd "C-c l d") 'lsp-bridge-diagnostic-list)
+(global-set-key (kbd "C-c l n") 'lsp-bridge-diagnostic-jump-next)
+(global-set-key (kbd "C-c l p") 'lsp-bridge-diagnostic-jump-prev)
+
