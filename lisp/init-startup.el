@@ -17,7 +17,7 @@
 (setq create-lockfiles nil)
 
 ;; 移除菜单栏
-(menu-bar-mode t)
+(menu-bar-mode -1)
 
 ;; 关闭工具栏
 (tool-bar-mode -1)
