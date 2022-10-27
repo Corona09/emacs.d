@@ -20,7 +20,7 @@
 (setq initial-scratch-message "")
 
 ;; 透明背景
-(setq default-frame-alist '((alpha-background . 90)))
+(setq default-frame-alist '((alpha-background . 80)))
 
 ;; 对外提供接口
 (provide 'init-ui)
