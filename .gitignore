@@ -6,5 +6,7 @@
 !lisp/**
 !init.el
 !utils.el
+!snippets/
+!snippets/**
 *.~undo-tree~
 **/*.~undo-tree~
