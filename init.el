@@ -4,3 +4,4 @@
 (load "~/.emacs.d/utils.el")
 (mapc 'load (file-expand-wildcards "~/.emacs.d/lisp/init-*.el"))
 (mapc 'load (file-expand-wildcards "~/.emacs.d/lisp/pkg/*.el"))
+(setq default-frame-alist '((alpha-background . 80)))

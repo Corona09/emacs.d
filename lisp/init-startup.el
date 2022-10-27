@@ -30,6 +30,7 @@
 
 ;; 用 y/n 代替 yas/no
 (defalias 'yes-or-no-p 'y-or-n-p)
+
 ;; 避免系统乱码
 (prefer-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
@@ -51,10 +52,9 @@
 		 (?\[ . ?\]) ;; 添加中括号补全
 		 (?\( . ?\)) ;; 添加小括号补全
 	   ))
-
-;; 为custom-set指定文件
+; 
+; ;; 为 custom-settings 指定文件
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
-;; 加载custom配置文件
 (when (file-exists-p custom-file) (load-file custom-file))
-
+ 
 (provide 'init-startup)
