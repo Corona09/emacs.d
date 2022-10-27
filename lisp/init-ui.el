@@ -3,7 +3,10 @@
 
 ;; 设置主题
 (pkginstall 'dracula-theme)
-(load-theme 'dracula)
+(pkginstall 'gruvbox-theme)
+(if (display-grayscale-p)
+	(load-theme 'gruvbox-dark-hard)
+    (load-theme 'dracula))
 (global-hl-line-mode 1)
 
 ;; 一个好看的mode-line
