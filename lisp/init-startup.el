@@ -12,10 +12,12 @@
 
 ;; 不产生*~文件
 (setq make-backup-files nil)
+
+;; 不创建锁文件
 (setq create-lockfiles nil)
 
 ;; 移除菜单栏
-(menu-bar-mode -1)
+(menu-bar-mode t)
 
 ;; 关闭工具栏
 (tool-bar-mode -1)
@@ -23,12 +25,15 @@
 ;; 关闭滚动条
 (scroll-bar-mode -1)
 
+;; 自动加载文件
+(global-auto-revert-mode t)
+
 ;; 避免系统乱码
-;(prefer-coding-system 'utf-8)
-;(set-default-coding-systems 'utf-8)
-;(set-terminal-coding-system 'utf-8)
-;(set-keyboard-coding-system 'utf-8)
-;(setq default-buffer-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(setq default-buffer-coding-system 'utf-8)
 
 ;; 设置slime
 (setq inferior-lisp-program "/usr/bin/sbcl")
