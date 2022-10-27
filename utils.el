@@ -5,6 +5,6 @@
 	(package-refresh-contents)
 	(package-install pkgname)))
 
-(defun testfunc (arg)
-  "Test Functions"
-  (message "Hello World"))
+(defun append-to-file (content fpath)
+  "Append CONTENT to file whose path is FPATH"
+  (write-region content nil fpath 'append))
