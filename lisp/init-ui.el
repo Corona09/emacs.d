@@ -1,5 +1,5 @@
 ;; 设置字体
-(set-frame-font "Mononoki Nerd Font 13")
+(set-frame-font "Mononoki Nerd Font 12")
 
 ;; 设置主题
 (pkginstall 'dracula-theme)
